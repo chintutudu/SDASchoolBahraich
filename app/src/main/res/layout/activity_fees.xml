@@ -7,6 +7,7 @@
     tools:context=".FeesActivity">
 
     <View
+        android:id="@+id/view"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_120_dp"
         android:background="@color/lightGray"
@@ -16,6 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_132_dp"
         android:layout_marginStart="@dimen/_40_dp"
@@ -194,17 +196,33 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="25000"
-                        android:fontFamily="@font/roboto_bold"
-                        android:textStyle="bold"
-                        android:textSize="@dimen/_16_dp"
                         android:layout_alignParentRight="true"
                         android:layout_centerVertical="true"
-                        android:layout_marginEnd="@dimen/_16_dp"/>
+                        android:layout_marginEnd="@dimen/_16_dp"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="25000"
+                        android:textSize="@dimen/_16_dp"
+                        android:textStyle="bold" />
 
                 </RelativeLayout>
             </LinearLayout>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fee_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_32_dp"
+        android:paddingStart="@dimen/_16_dp"
+        android:paddingEnd="@dimen/_16_dp"
+        android:paddingTop="@dimen/_16_dp"
+        android:paddingBottom="@dimen/_16_dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+    </androidx.recyclerview.widget.RecyclerView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

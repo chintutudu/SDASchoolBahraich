@@ -33,4 +33,18 @@
     <string name="date">Date</string>
     <string name="today">Today</string>
     <string name="tomorrow">Tomorrow</string>
+    <string name="performance">Performance</string>
+    <string name="month_of">Month Of</string>
+    <string name="date_paid">Date Paid</string>
+    <string name="amount_paid">Amount Paid</string>
+    <string name="bill_no">Bill No</string>
+
+    <string name="average">Average</string>
+
+    <string name="unit_test_1">Unit Test I</string>
+    <string name="unit_test_2">Unit Test II</string>
+    <string name="unit_test_3">Unit Test III</string>
+    <string name="unit_test_4">Unit Test IV</string>
+    <string name="exam_1">I Term Exam</string>
+    <string name="exam_2">II Term Exam</string>
 </resources>

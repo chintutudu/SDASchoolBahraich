@@ -10,17 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".FeesActivity"
-            android:theme="@style/FeesActivityTheme"></activity>
-        <activity
-            android:name=".CircularsActivity"
-            android:theme="@style/CircularsActivityTheme"/>
-        <activity
-            android:name=".MarksActivity"
+            android:name=".MarksOpenSubjectActivity"
             android:theme="@style/MarksActivityTheme"/>
         <activity
+            android:name=".FeesActivity"
+            android:theme="@style/FeesActivityTheme" />
+        <activity
+            android:name=".CircularsActivity"
+            android:theme="@style/CircularsActivityTheme" />
+        <activity
+            android:name=".MarksActivity"
+            android:theme="@style/MarksActivityTheme" />
+        <activity
             android:name=".CalendarActivity"
-            android:theme="@style/CalendarActivityTheme"/>
+            android:theme="@style/CalendarActivityTheme" />
         <activity
             android:name=".AssignmentsActivity"
             android:theme="@style/AssignmentActivityTheme" />
