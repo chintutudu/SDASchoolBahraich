@@ -1,12 +1,13 @@
-package in.ccode.sdaschoolbahraich;
+package in.ccode.sdaschoolbahraich.feesActivity;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import in.ccode.sdaschoolbahraich.R;
 
 public class FeeListAdapter extends RecyclerView.Adapter<FeeListAdapter.ViewHolder> {
     private FeeListData[] listData;

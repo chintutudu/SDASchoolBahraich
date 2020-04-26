@@ -1,4 +1,4 @@
-package in.ccode.sdaschoolbahraich;
+package in.ccode.sdaschoolbahraich.circularActivity;
 
 public class CircularListData {
     private String circularHeading;

@@ -1,4 +1,4 @@
-package in.ccode.sdaschoolbahraich;
+package in.ccode.sdaschoolbahraich.assignmentActivity;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -6,6 +6,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
+
+import in.ccode.sdaschoolbahraich.R;
 
 
 public class AssignmentListAdapter extends RecyclerView.Adapter<AssignmentListAdapter.ViewHolder>{

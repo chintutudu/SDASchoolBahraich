@@ -1,4 +1,4 @@
-package in.ccode.sdaschoolbahraich;
+package in.ccode.sdaschoolbahraich.assignmentActivity;
 
 public class AssignmentListData{
     private String subjectName;

@@ -1,8 +1,10 @@
-package in.ccode.sdaschoolbahraich;
+package in.ccode.sdaschoolbahraich.marksActivity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import in.ccode.sdaschoolbahraich.R;
 
 public class MarksOpenSubjectActivity extends AppCompatActivity {
 

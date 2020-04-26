@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:scrollbars="none"
-    tools:context=".MainActivity">
+    tools:context=".mainActivity.MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -38,29 +38,53 @@
                 android:weightSum="3">
 
                 <TextView
+                    android:id="@+id/name"
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/roboto_bold"
-                    android:text="Suleman Soren"
                     android:textSize="@dimen/_16_dp"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:fontFamily="@font/roboto_light"
-                    android:text="Class - XII"
-                    android:textSize="@dimen/_16_dp" />
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_light"
+                        android:text="@string/class_dash"
+                        android:textSize="@dimen/_16_dp" />
+                    <TextView
+                        android:id="@+id/class_section"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_8_dp"
+                        android:fontFamily="@font/roboto_light"
+                        android:textSize="@dimen/_16_dp" />
+                </LinearLayout>
 
-                <TextView
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:fontFamily="@font/roboto_light"
-                    android:text="Roll No - S123"
-                    android:textSize="@dimen/_16_dp" />
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_light"
+                        android:text="@string/roll_no_dash"
+                        android:textSize="@dimen/_16_dp" />
+                    <TextView
+                        android:id="@+id/roll_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_8_dp"
+                        android:fontFamily="@font/roboto_light"
+                        android:textSize="@dimen/_16_dp" />
+                </LinearLayout>
             </LinearLayout>
         </RelativeLayout>
 

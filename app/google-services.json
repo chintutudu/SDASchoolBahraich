@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "973162969499",
+    "firebase_url": "https://sda-school-bahraich-ccode.firebaseio.com",
+    "project_id": "sda-school-bahraich-ccode",
+    "storage_bucket": "sda-school-bahraich-ccode.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973162969499:android:23b8d16ad04a4c4390493e",
+        "android_client_info": {
+          "package_name": "in.ccode.sdaschoolbahraich"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973162969499-h7e47d51ms9jtc3b6qt3mm2pg6ecdvsu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW65JfPjlvh-58zBFBWew6_KXfJEokDBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973162969499-h7e47d51ms9jtc3b6qt3mm2pg6ecdvsu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,10 +1,12 @@
-package in.ccode.sdaschoolbahraich;
+package in.ccode.sdaschoolbahraich.assignmentActivity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+
+import in.ccode.sdaschoolbahraich.R;
 
 public class AssignmentsActivity extends AppCompatActivity {
 

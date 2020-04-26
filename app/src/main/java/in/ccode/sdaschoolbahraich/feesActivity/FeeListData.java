@@ -1,4 +1,4 @@
-package in.ccode.sdaschoolbahraich;
+package in.ccode.sdaschoolbahraich.feesActivity;
 
 public class FeeListData {
     private String feeMonthOf;

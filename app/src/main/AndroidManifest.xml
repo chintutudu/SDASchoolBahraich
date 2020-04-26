@@ -10,30 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MarksOpenSubjectActivity"
+            android:name=".marksActivity.MarksOpenSubjectActivity"
             android:theme="@style/MarksActivityTheme"/>
         <activity
-            android:name=".FeesActivity"
+            android:name=".feesActivity.FeesActivity"
             android:theme="@style/FeesActivityTheme" />
         <activity
-            android:name=".CircularsActivity"
+            android:name=".circularActivity.CircularsActivity"
             android:theme="@style/CircularsActivityTheme" />
         <activity
-            android:name=".MarksActivity"
+            android:name=".marksActivity.MarksActivity"
             android:theme="@style/MarksActivityTheme" />
         <activity
-            android:name=".CalendarActivity"
+            android:name=".calendarActivity.CalendarActivity"
             android:theme="@style/CalendarActivityTheme" />
         <activity
-            android:name=".AssignmentsActivity"
+            android:name=".assignmentActivity.AssignmentsActivity"
             android:theme="@style/AssignmentActivityTheme" />
         <activity
-            android:name=".AttendanceActivity"
+            android:name=".attendanceActivity.AttendanceActivity"
             android:theme="@style/AttendanceActivityTheme" />
         <activity
-            android:name=".MainActivity"
+            android:name=".mainActivity.MainActivity"
             android:theme="@style/MainActivityTheme" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".loginActivity.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

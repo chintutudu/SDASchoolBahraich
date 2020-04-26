@@ -1,4 +1,4 @@
-package in.ccode.sdaschoolbahraich.calendar;
+package in.ccode.sdaschoolbahraich.customCalendar;
 
 import android.content.Context;
 import android.view.LayoutInflater;

@@ -23,6 +23,8 @@
     <string name="holiday">Holiday</string>
     <string name="events">Events</string>
     <string name="class_">Class</string>
+    <string name="class_dash">Class - </string>
+    <string name="roll_no_dash">Roll No - </string>
     <string name="test">Test</string>
     <string name="attended">Attended</string>
     <string name="exams">Exams</string>
@@ -55,4 +57,6 @@
     <string name="thu">T</string>
     <string name="fri">F</string>
     <string name="sat">S</string>
+
+    <string name="preference_roll_no">preference_roll_no</string>
 </resources>

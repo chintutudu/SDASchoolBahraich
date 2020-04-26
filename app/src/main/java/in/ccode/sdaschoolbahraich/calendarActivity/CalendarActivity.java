@@ -1,4 +1,4 @@
-package in.ccode.sdaschoolbahraich;
+package in.ccode.sdaschoolbahraich.calendarActivity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,9 +9,10 @@ import android.widget.LinearLayout;
 
 import java.text.SimpleDateFormat;
 
-import in.ccode.sdaschoolbahraich.calendar.CalendarCustomView;
+import in.ccode.sdaschoolbahraich.R;
+import in.ccode.sdaschoolbahraich.customCalendar.CalendarCustomView;
 
-public class AttendanceActivity extends AppCompatActivity {
+public class CalendarActivity extends AppCompatActivity {
     LinearLayout layoutCalendar;
     View customView;
     SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
@@ -19,15 +20,15 @@ public class AttendanceActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_attendance);
+        setContentView(R.layout.activity_calendar);
 
         setInitializations();
         setCalenderView();
     }
 
     private void setInitializations() {
-        customView = (View) findViewById(R.id.custom_view_attendance);
-        layoutCalendar = (LinearLayout) findViewById(R.id.layoutCalender_attendance);
+        customView = (View) findViewById(R.id.custom_view_calendar);
+        layoutCalendar = (LinearLayout) findViewById(R.id.layoutCalender_calendar);
     }
 
     private void setCalenderView() {

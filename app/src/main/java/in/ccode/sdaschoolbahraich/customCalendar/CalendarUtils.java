@@ -1,4 +1,4 @@
-package in.ccode.sdaschoolbahraich.calendar;
+package in.ccode.sdaschoolbahraich.customCalendar;
 
 public interface CalendarUtils {
     public void nextMonth();
