@@ -9,6 +9,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -19,6 +20,7 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
+import com.google.firebase.storage.StorageReference;
 
 import in.ccode.sdaschoolbahraich.assignmentActivity.AssignmentsActivity;
 import in.ccode.sdaschoolbahraich.attendanceActivity.AttendanceActivity;
@@ -37,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
     CardView circularsMenu;
     CardView feesMenu;
     TextView name,class_name,roll_no;
+    ImageView profile_image;
 
     // Access a Cloud Firestore instance from your Activity
     FirebaseFirestore db = FirebaseFirestore.getInstance();
@@ -55,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
         name = (TextView) findViewById(R.id.name);
         class_name = (TextView) findViewById(R.id.class_section);
         roll_no = (TextView) findViewById(R.id.roll_no);
+        profile_image = (ImageView) findViewById(R.id.profile_image);
 
         SharedPreferences preferences = getSharedPreferences(getResources().getString(R.string.preference_roll_no),MODE_PRIVATE);
         String sharedRollNo = preferences.getString("profile_roll_no", "");

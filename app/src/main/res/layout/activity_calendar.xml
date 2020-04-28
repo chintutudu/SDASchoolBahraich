@@ -8,7 +8,7 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_120_dp"
+        android:layout_height="@dimen/_80_dp"
         android:background="@color/blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -19,9 +19,9 @@
         android:id="@+id/cardView_calendar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_132_dp"
-        android:layout_marginStart="@dimen/_40_dp"
-        android:layout_marginTop="@dimen/_80_dp"
-        android:layout_marginEnd="@dimen/_40_dp"
+        android:layout_marginStart="@dimen/_16_dp"
+        android:layout_marginTop="@dimen/_40_dp"
+        android:layout_marginEnd="@dimen/_16_dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -156,12 +156,12 @@
                         android:weightSum="4">
 
                         <TextView
+                            android:id="@+id/calendar_this_week"
                             android:layout_width="wrap_content"
                             android:layout_height="0dp"
                             android:layout_weight="1"
                             android:fontFamily="@font/roboto_light"
                             android:gravity="center"
-                            android:text="10 Mar - 14 Mar"
                             android:textSize="@dimen/_16_dp" />
 
                         <LinearLayout

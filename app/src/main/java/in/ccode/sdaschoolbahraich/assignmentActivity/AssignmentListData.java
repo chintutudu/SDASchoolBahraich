@@ -1,30 +1,33 @@
 package in.ccode.sdaschoolbahraich.assignmentActivity;
 
 public class AssignmentListData{
-    private String subjectName;
-    private String subjectDescription;
-    private String subjectDueDate;
-    public AssignmentListData(String subjectName, String subjectDescription, String subjectDueDate) {
-        this.subjectName = subjectName;
-        this.subjectDescription = subjectDescription;
-        this.subjectDueDate = subjectDueDate;
+    private String subject_id;
+    private String assignment_details;
+    private String due_date;
+    public AssignmentListData() {
+
     }
-    public String getSubjectName() {
-        return subjectName;
+    public AssignmentListData(String subject_id, String assignment_details, String due_date) {
+        this.subject_id = subject_id;
+        this.assignment_details = assignment_details;
+        this.due_date = due_date;
     }
-    public void setSubjectName(String subjectName) {
-        this.subjectName = subjectName;
+    public String getSubject_id() {
+        return subject_id;
     }
-    public String getDescription() {
-        return subjectDescription;
+    public void setSubject_id(String subject_id) {
+        this.subject_id = subject_id;
+    }
+    public String getAssignment_details() {
+        return assignment_details;
     }
     public void setDescription(String description) {
-        this.subjectDescription = description;
+        this.assignment_details = description;
     }
-    public String getSubjectDueDate() {
-        return subjectDueDate;
+    public String getDue_date() {
+        return due_date;
     }
-    public void setSubjectDueDate(String subjectDueDate) {
-        this.subjectDueDate = subjectDueDate;
+    public void setDue_date(String due_date) {
+        this.due_date = due_date;
     }
 }

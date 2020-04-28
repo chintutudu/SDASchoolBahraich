@@ -8,7 +8,7 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_120_dp"
+        android:layout_height="@dimen/_80_dp"
         android:background="@color/orange"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -19,9 +19,9 @@
         android:id="@+id/card_marks_heading"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_132_dp"
-        android:layout_marginStart="@dimen/_40_dp"
-        android:layout_marginTop="@dimen/_80_dp"
-        android:layout_marginEnd="@dimen/_40_dp"
+        android:layout_marginStart="@dimen/_16_dp"
+        android:layout_marginTop="@dimen/_40_dp"
+        android:layout_marginEnd="@dimen/_16_dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -214,6 +214,7 @@
         android:layout_marginStart="@dimen/_16_dp"
         android:layout_marginTop="@dimen/_32_dp"
         android:layout_marginEnd="@dimen/_16_dp"
+        android:layout_marginBottom="@dimen/_32_dp"
         android:columnCount="3"
         android:rowCount="3"
         app:layout_constraintBottom_toBottomOf="parent"
